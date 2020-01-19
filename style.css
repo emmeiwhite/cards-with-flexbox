@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(
+    to right,
+    rgb(135, 135, 202),
+    rgb(132, 132, 229)
+  );
+}
+
+header,
+footer,
+section {
+  padding: 0.7rem;
+}
+
+header {
+  background: blue;
+  text-align: center;
+  color: #fff;
+}
+
+.card-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.card-list .card {
+  margin-right: 10px;
+  flex: 0 0 340px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .main-content {
+  flex: 1 0 0%;
+}
+
+/* --- Common CSS  --- */
+button {
+  background-color: rgb(125, 125, 231);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+
+button:hover {
+  background-color: blue;
+}
